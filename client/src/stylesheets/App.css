@@ -1,0 +1,1977 @@
+/* Add your CSS here */
+h1{
+    background-color:lightgrey;
+    font-family: verdana;
+    padding-top:35px;
+    padding-bottom:5px;
+    border: 3px solid black;
+    border-color: black;
+    margin:0px;
+    width: 99.5%;
+}
+
+/* #header{
+    border-color: purple;
+    border-style: solid;
+    width: 95%;
+} */
+
+#webSiteTitleDiv{
+    /* margin-left: 36.75%; */
+    font-family: verdana;
+    font-size: 35px;
+    width: 100%;
+    /* border-style: solid; */
+    text-align: center;
+}
+
+#searchBarDiv{
+    /* margin-left: 40%; */
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    font-family: verdana;
+    /* border-style: solid; */
+}
+
+h2{
+    margin:0px;
+}
+
+/*#titleCell{
+    border-style: solid;
+    color:black;
+    font-size:35px;
+    font-family:verdana;
+    font-weight: bold;
+}*/
+
+#searchBar{
+    border:solid;
+    font-size:20px;
+    height:35px;
+    width:20%;
+    font-family:verdana;
+    border-radius:25px;
+}
+
+#mainContent{                                     /*Question*/
+    font-size: 30;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.leftSideBar{
+    border-right-style: dotted;
+    height: 50px;
+}
+
+#allQuestionsCell{
+    font-weight: bold;
+    font-family:verdana;
+    font-size: 30px;
+    padding-left: 30px;
+    width: 950px;
+    text-align: left;
+}
+
+#numOfQuestionsCell{
+    font-size: 25px;
+    font-family:verdana;
+    font-weight: normal;
+    padding-left: 30px;
+    text-align: left;
+    width: 100px;
+}
+
+#numOfQuestionsCellPostQ{
+    font-size: 25px;
+    font-family:verdana;
+    font-weight: normal;
+    padding-left: 30px;
+    text-align: left;
+    width: 100px;
+}
+
+#sortingButtonsCell{
+    width: 700px;
+    margin-left:60px;
+    text-align: left;
+}
+
+#askQuestionsButton{
+    font-size: 25px;
+    font-family:verdana;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor:pointer;
+}
+
+.sortingButtons{
+    cursor:pointer;
+    display: inline-block;
+    font-family:verdana;
+    margin: -4px;
+    border-radius: 0px;
+    margin-bottom: 8px;
+}
+
+.leftSideBarLastCell{
+    position: relative;
+    border-right-style: dotted;
+    text-align: top;
+    padding-top:600px;
+    /* width:1%; */
+}
+
+#userProfileLinkDiv{
+    position: absolute;
+    top: 60px;
+    /* left: 38%; */
+}
+
+#userProfileLink{
+    text-decoration: none;
+    border-radius:5px;
+    font-family:verdana;
+    font-size:25px;
+    margin-top:1%;
+    padding-left: 102px;
+    padding-right: 102px;
+    /* margin-right:-1%; */
+    cursor: pointer;
+}
+
+
+#questionsLinkCell{
+    border-right-style: dotted;
+    /* width: 200px; */
+    height: 0px;
+}
+
+#tagsCell{
+    border-right-style: dotted;
+    height: 0px;
+}
+
+#horLineHeaderPart1{
+    border-bottom-style: dotted;
+}
+
+#horLineHeaderPart2{
+    border-bottom-style: dotted;
+}
+
+#questionsLink{
+    text-decoration: none;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:66px;
+    padding-right:66px;
+    border-radius:5px;
+    font-family:verdana;
+    font-size:25px;
+    margin:0px;
+}
+
+.clicked{
+    background-color:lightgrey;
+}
+
+.clicked2{
+    background-color:lightgrey;
+}
+
+#tagsLink{
+    text-decoration: none;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:100px;
+    padding-right:100px;
+    border-radius:5px;
+    font-family:verdana;
+    font-size:25px;
+    margin:0px;
+}
+
+
+#questionsLink:visited{
+    color:rgb(0, 64, 255);
+    margin:0px;
+}
+
+#tagsLink:visited{
+    color:rgb(0, 64, 255);
+    margin:0px;
+}
+
+#userProfileLink:visited{
+    color:rgb(0, 64, 255);
+    margin:0px;
+}
+
+body{
+    margin:0px;
+}
+
+#titleBar
+{
+    border:solid;
+    font-size:30px;
+    height:80px;
+    width:900px;
+    font-family:verdana;
+    margin-left: 0.75%;
+}
+
+#tagBar{
+    float: left;
+    margin-left: 1.75%;
+    border:solid;
+    font-size:30px;
+    height:80px;
+    width:900px;
+    font-family:verdana;
+}
+
+.questionTitle{
+    font-weight:normal;
+    font-family:verdana;
+}
+
+.questionTitleSub{
+    font-family:verdana;
+    font-weight: normal;
+}
+
+#questionText{
+    margin-right:470px;
+    padding-top:50px;
+    padding-right:550px;
+    font-size:45px;
+    font-family:verdana;
+}
+
+#questionTextNew{
+    padding-top:30px;
+    padding-bottom: 30px;
+    float: left;
+    width: 97%;
+    font-size:30px;
+    font-family:verdana;
+    text-align: left;
+    margin-left: 2%;
+}
+
+#addDetails{
+    margin-right:465px;
+    padding-right:720px;
+    padding-top:30px;
+    font-family:verdana;
+}
+
+#addDetailsNew{
+    float: left;
+    width: 97%;
+    text-align: left;
+    margin-left: 2.25%;
+    font-family:verdana;
+    font-weight: normal;
+}
+
+#questionTextBar{
+    float: left;
+    margin-left: 1.75%;
+    margin-top:10px;
+    font-family: verdana;
+    font-size:30px;
+    width: 900px;
+    border:solid black; 
+}
+
+#tagsText{
+    float: left;
+    margin-left: 2%;
+    width: 97%;
+    text-align: left;
+    font-family:verdana;
+    margin-top:30px;
+    font-size:30px;
+    padding-bottom:30px;
+}
+
+#tagsItalics{
+    font-family:verdana;
+    font-weight:normal;
+    width: 97%;
+    float: left;
+    text-align: left;
+    margin-left: 2.25%;
+    margin-bottom:10px;
+}
+
+#postQuestionButton{
+    font-size: 25px;
+    font-family:verdana;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor:pointer;
+}
+
+#postQuestionButtonDiv{
+    width: 40%;
+    margin-left: 1.75%;
+    margin-top: 30px;   
+    float: left;
+    text-align: left;
+}
+
+#fakePostQuestionButton{
+    font-size: 25px;
+    font-family:verdana;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor:pointer;
+    margin-right: 1180px;
+    margin-top: 40px; 
+}
+
+#username{
+    margin-top:30px;
+    font-family:verdana;
+    font-size:30px;
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom:30px;
+}
+
+#questionSummary{
+    margin-top:30px;
+    font-family:verdana;
+    font-size:30px;
+    width: 97%;
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom:30px;
+}
+
+#questionSummarySubText{
+    float: left;
+    width: 97%;
+    text-align: left;
+    margin-left: 2.25%;
+    font-family:verdana;
+    font-weight: normal;
+}
+
+#questionSummaryBar{
+    border:solid;
+    font-size:30px;
+    height:80px;
+    width:900px;
+    float: left;
+    margin-left: 1.75%;
+    font-family:verdana;
+}
+
+#userNameBar{
+    border:solid;
+    font-size:30px;
+    height:80px;
+    width:900px;
+    float: left;
+    margin-left: 1.75%;
+    font-family:verdana;
+}
+
+#starWarning{
+    color: red;
+    font-family:verdana;
+    width: 40%;
+    font-size: 20px;
+    float: left;
+    padding-top: 2.5%;
+}
+
+#bootlegDiv{
+    display: inline-block;
+    width: 260px;
+    border-right-style: dotted;
+    border-color: black;
+    height: 100px;
+}
+
+#postQuestionButtonTest{
+    display: inline-block;
+    font-size: 25px;
+    font-family:verdana;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor:pointer;
+    margin-right: 275px;
+    margin-left: 30px;
+    margin-top: 30px;
+    vertical-align: top;
+}
+
+.question{
+    border-color: black;
+    border-bottom-style: dotted;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#formatTitle{
+    font-family:verdana;
+    color:rgb(4, 10, 201);
+    /*margin-left: 180px;
+    margin-bottom:-70px;*/
+    width: 70%;
+    height: 30px;
+    /*padding-top:20px;*/
+    float: left;
+    text-align: left;
+    /*overflow-wrap: break-word;*/
+    word-break: break-word;
+    font-size: 24px;
+}
+
+#formatSummary{ 
+    font-family:verdana;
+    color:grey;
+    /*margin-left: 180px;
+    margin-bottom:-70px;*/
+    font-size: 17px;
+    width: 70%;
+    height: 35px;
+    /*padding-top:20px;*/
+    /* float: left; */
+    text-align: left;
+    /*overflow-wrap: break-word;*/
+    word-break: break-word;
+    margin-left: 15.10%;
+    margin-top: 3%;
+    padding-bottom: 10px;
+}
+
+#tagFormat{
+    margin-left:250px;
+    border-radius:10px;
+    background-color:lightgrey;
+    width:800px;
+    color:black;
+    font-family:verdana;
+    border:solid black;
+}
+
+#userNameFormat
+{   
+    /*margin-left:1200px;*/
+    font-size:20px;
+    /*padding-top:35px;
+    margin-bottom:-10px;*/
+    font-family:verdana;
+    display: inline-block;
+}
+#dateFormat{
+    font-family:verdana;
+    font-size: 20px;
+    /*padding-left:1200px;
+    margin-top:20px;*/
+}
+
+#userNameAndDateFormat{
+    width: 20%;
+    float: left;
+    margin-left: 0%;
+    margin-top: 0.5%;
+    /* border-style: solid; */
+}
+
+#viewCountFormat{
+    /*margin-right:1200px;
+    margin-top: 100px;*/
+    font-family:verdana;
+    width: 15%;
+    float: left;
+    padding-bottom: 5px;
+}
+
+#answerCountFormat{
+    width: fit-content;
+    border-style: solid;
+    font-family:verdana;
+    /*margin-right:1200px;*/
+
+}
+
+  
+/*+++++++++++++++++++++++++++++++++++++++++ANSWER PAGE STUFF*/
+#numOfAnswersDiv{
+    font-size: 20px;
+    display: inline;
+    /*border-style: solid;
+    border-color: black;*/
+    /* border-style: solid; */
+}
+
+#questionTitleDiv{
+    display: inline-block;
+    height: fit-content;
+    margin-left : 0%;
+    width: 100%;
+    font-weight: bold;
+    /* border-style: solid; */
+    border-bottom-style: solid;
+    font-size: 30px;
+}
+
+#askQuestionButtonAnswerPage{
+    font-size: 25px;
+    font-family:verdana;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor:pointer;
+}
+
+#viewsDiv{
+    font-size: 20px;
+    /*border-style: solid;
+    border-color: black;*/
+    /* border-style: solid; */
+}
+
+#questionVotingBox{
+    /* border-style: solid; */
+    width: 8%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+#answerVotingBox{
+    /* border-style: solid; */
+    width: 8%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+#upvote{
+    background-color: lightgray;
+    font-family: Verdana;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    border-radius: 100px;
+    cursor: pointer;
+    height: 40px;  
+}
+
+#upvote:hover{
+    background-color: rgb(7, 205, 7);
+    color: white;
+}
+
+#totalVotesDiv{
+    font-family: Verdana;
+    width: 100%;
+    /* border-style: solid; */
+    font-size: 15px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+
+#downvote{
+    background-color: lightgray;
+    font-family: Verdana;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    border-radius: 100px;
+    cursor: pointer;
+    height: 40px;
+}
+
+#downvote:hover{
+    background-color: red;
+    color: white;
+}
+
+#questionTextDiv{
+    /*border-style: solid;
+    border-color: black;*/
+    text-align: left;
+    margin-left: 1%;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    width: 65%;
+    float: left;
+    /* border-style: solid; */
+    min-height: 120px;
+    height: auto;
+}
+
+#userNameDiv{
+    padding-left: 20px;
+    text-align: left;
+    /* border-style: solid; */
+}
+
+#dateDiv{
+    padding-left: 20px;
+    text-align: left;
+    /*border-style: solid;
+    border-color: black;*/
+}
+
+#userNameandDateDiv{
+    width: 21%;
+    float: left;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0%;
+    /* border-style: solid; */
+}
+
+#bigTagDivAnswers{
+    /*display: inline-block;*/
+    width: 80%;
+    /* margin-left: 9.4%; */
+    margin-right: 10.2%;
+    text-align: left; 
+    float: right;    
+    /* margin-left: 0%; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* border-style: solid; */
+}
+
+/*///////////////////////////////////////////////////QUESTION COMMENTS START/////////////////////*/
+#questionCommentsBigDiv{
+    /* border-style: solid; */
+    float: right;
+    width: 88%;
+    margin-right: 2.2%;
+}
+
+#questionCommentsVotingBox{
+    /* border-style: solid; */
+    width: 10%;
+    float: left;
+}
+
+#upvoteComment{
+    background-color: lightgray;
+    font-family: Verdana;
+    font-size: 15px;
+    text-align: center;
+    width: 55%;
+    border-radius: 100px;
+    cursor: pointer;
+    height: 20px;  
+    font-size: 12px;
+
+}
+
+#upvoteComment:hover{
+    background-color: rgb(7, 205, 7);
+    color: white;
+}
+
+#totalVotesDivComment{
+    font-family: Verdana;
+    width: 100%;
+    /* border-style: solid; */
+    font-size: 12px;
+    float: right;
+}
+
+#questionComment{
+    /* border-style: solid; */
+    float: left;
+    width: 63%;
+    font-size: 12px;
+    font-family: Verdana;
+    padding-top: 10px;
+    height: 40px;
+    text-align: left;
+    word-break: break-word;
+}
+
+#questionCommentUser{
+    /* border-style: solid; */
+    float: left;
+    width: 24.4%;
+    font-size: 10px;
+    font-family: Verdana;
+    padding-top: 10px;
+}
+
+#questionCommentPostForm{
+    /* border-style: solid; */
+    display: inline-block;
+    width: 99%;
+    height: fit-content;
+    padding-bottom: 5px;
+}
+
+#commentText{
+    width: 56.5%;
+    margin-right: 6.5%;
+}
+
+#commentTextBox{
+    width: 56.5%;
+    margin-right: 6.5%;
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+.commentTextBoxAnswers{
+    width: 56.5%;
+    margin-right: 6.5%;
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+#postCommentButton{
+    margin-left: 41%;
+    font-family: Verdana;
+    cursor: pointer;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    border-radius: 50px;
+}
+
+#pageButtonsComments{
+    display: inline-block;  
+    width: 100%;
+    font-size: 12px;
+    font-family: Verdana;
+    padding-bottom: 10px;
+    /* border-style: solid;
+    border-color: red; */
+}
+
+#prevPageButtonComments{
+    margin-right: 1%;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#prevPageButtonComments:hover{
+    background-color: rgb(0, 157, 255);
+    color: white;
+}
+
+#nextPageButtonComments{
+    margin-left: 1%;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#nextPageButtonComments:hover{
+    background-color: rgb(0, 157, 255);
+    color: white;
+}
+/*///////////////////////////////////////////////////QUESTION COMMENTS END/////////////////////*/
+
+/*///////////////////////////////////////////////////ANSWER COMMENTS START/////////////////////*/
+
+/*///////////////////////////////////////////////////ANSWER COMMENTS END/////////////////////*/
+.comment{
+    width: 100%;
+    display: inline-block;
+    border-top-style: solid;
+    border-color: gray;
+}
+
+.answer{
+    border-top-style: dotted;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#addAnswerDetail{
+    text-align: left;
+    padding-left: 2%;
+}
+
+#answerTextDiv{
+    /*display: inline-block;*/
+    width: 65%;
+    /*margin-right: 400px;*/
+    text-align: left;
+    float: left;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 1%;
+    min-height: 130px;
+    height: auto;
+    /* border-style: solid; */
+}
+
+#answerAuthorDiv{
+    /*width: 20%;
+    border-style: solid;
+    border-color: black;*/
+    height: fit-content;
+    /*margin-left: 950px;
+    margin-bottom: 20px;*/
+}
+
+#answerDateDiv{
+    /*width: 20%;
+    border-style: solid;
+    border-color: black;*/
+    height: fit-content;
+    /*margin-left: 950px;  */
+}
+
+#answerAuthorAndDateDiv{
+    width: 21%;
+    float: left;
+    text-align: left;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    /*border-style: solid; */
+    padding-left: 20px;
+}
+
+#answerQuestionButton{
+    font-size: 25px;
+    font-family:verdana;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor:pointer;
+}
+
+#answerQuestionButtonDiv{
+    display: inline;
+    float: left;
+    padding-top: 30px;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    width: 97%;
+    border-color: black;
+}
+
+#questionDetails{
+    border-style: solid;
+}
+
+#pageButtonsAnswers{
+    display: inline-block;
+    padding-top: 1%;
+    border-top: dotted;
+    width: 100%;
+    font-family: Verdana;
+    /* border-style: solid;
+    border-color: red; */
+}
+
+#userNameDivAnswer{
+    font-family:verdana;
+    font-size:30px;
+    font-weight: bold;
+
+}
+
+#userNameBarAnswer{
+    border:solid;
+    font-size:30px;
+    height:80px;
+    width:900px;
+    margin-left: 2%;
+    font-family:verdana;
+}
+
+#answerTextDivAnswer{
+    width: fit-content;
+    font-family:verdana;
+    font-size:30px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#answerBarDivAnswer{
+    border:solid;
+    text-align: left;
+    font-family: verdana;
+    font-size:30px;
+    margin-top:30px;
+    width:900px;
+    float: left;
+    margin-left: 30px;
+}   
+
+#starWarningAnswer{
+    color: red;
+    font-family:verdana;
+    vertical-align: top;
+    margin-top: 40px;
+    font-size: 20px;
+    display: inline;
+    float: left;
+    width: 30%;
+}
+
+#postAnswerButton{
+    display: inline-block;
+    font-size: 25px;
+    font-family:verdana;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor:pointer;
+    margin-left: 30px;
+    margin-top: 30px;
+    vertical-align: top;
+}
+
+#postAnswerButtonDiv{
+    text-align: left;
+    width: 45%;
+    float: left;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#tagNumber{
+    font-family: verdana;
+    margin-bottom:22px;
+}
+
+#tagTitle{
+    margin-left:73%;
+    margin-top:-60px;
+}
+
+
+.tagDiv{
+    width: 25%;
+    display:inline-block;
+    margin-right: 7%;
+    margin-bottom: 3%;
+}
+
+#tagNameDiv{
+    border: 2px dashed black;
+    border-radius: 0; 
+    /* width: 300px;  */
+    height: 100px;
+    /* margin-left:25px;
+    margin-top:20px;
+    margin-bottom:50px; */
+    padding-top:5%;
+    color:rgb(4, 10, 201);
+    font-family:verdana;
+    cursor:pointer;
+}
+
+#tagNumDiv{
+    width: fit-content;
+    /*border: solid;*/
+    color: black;
+    padding-left: 25%;
+    margin-top:5%;
+}
+
+.smallTagDiv{
+    display: inline-block;
+    border: solid;
+    border-radius: 10px;
+    margin-right: 5px;
+    background-color: lightgrey;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#bigTagDiv{
+    /*display: inline-block;*/
+    width: 50%;
+    text-align: left; 
+    float: left;    
+    /* margin-left: 0%; */
+    margin-top: 0x;
+    min-height: 1px;
+    height: auto;
+    /* border-style: solid; */
+}
+
+#newestButton{
+    margin-right: 10px;
+  }
+  
+  #activeButton{
+    margin-right: 10px;
+  }
+  
+  #unansweredButton{
+    margin-right: 0px;
+  }
+
+  #mainBody{
+    vertical-align: top;
+  }
+
+  .redText{
+    color: red;
+  }
+
+  .greenText{
+    color: green;
+  }
+
+#questionTitleErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 98.5%;
+    float: left;
+    color: red;
+}
+
+#questionTitleTooLongErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 98.5%;
+    float: left;
+    color: red;
+}
+
+#questionEmptySummaryErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 75%;
+    float: left;
+    color: red;
+}
+
+#questionSummaryTooLongErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 75%;
+    float: left;
+    color: red;
+}
+
+#questionTextErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 75%;
+    float: left;
+    color: red;
+}
+
+#questionTagsErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 75%;
+    float: left;
+    color: red;
+}
+
+#questionUsernameErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 75%;
+    float: left;
+    color: red;
+}
+
+#questionTooManyTagsErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 75%;
+    float: left;
+    color: red;
+}
+
+#questionTagTooLongErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 75%;
+    float: left;
+    color: red;
+}
+
+#repTooLowNewTagErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 75%;
+    float: left;
+    color: red;
+}
+
+#answerUsernameErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 99%;
+    float: left;
+    color: red;
+}
+
+#answerTextErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 76%;
+    float: left;
+    color: red;
+}
+
+#noSearchResultsBox{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    font-size: 30px;
+    font-family: verdana;
+}
+
+#questionHyperlinkFormatErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 76%;
+    float: left;
+    color: red;
+}
+
+#answerHyperlinkFormatErrorBox{
+    font-size: 20px;
+    text-align: right;
+    width: 76%;
+    float: left;
+    color: red;
+}
+
+#welcomeText{
+    margin-left: 32%;
+    margin-top: 10%;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logInButton{
+    font-size:20px;
+    color:white;
+    font-family:verdana;
+    padding: .5em 1em;
+    margin-left:47%;
+    margin-top: 4%;
+    border-radius: 1em;
+    border:none;
+    outline:none;
+    background-color:rgb(0, 157, 255);
+    cursor:pointer;
+}
+
+.registerButton{
+    font-size:20px;
+    color:white;
+    font-family:verdana;
+    padding: .5em 1em;
+    margin-left:46%;
+    margin-top: 4%;
+    border-radius: 1em;
+    border:none;
+    outline:none;
+    background-color:rgb(0, 157, 255);
+    cursor:pointer;
+}
+
+.guestButton{
+    font-size:20px;
+    color:white;
+    font-family:verdana;
+    padding: .5em 1em;
+    margin-left:47%;
+    margin-top: 4%;
+    border-radius: 1em;
+    border:none;
+    outline:none;
+    background-color:rgb(0, 157, 255);
+    cursor:pointer;
+}
+
+#registerUsername{
+    font-family:verdana;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:32%;
+    margin-top: 5%;
+}
+
+#registerUsernameTextbox{
+    padding-top:1%;
+    padding-bottom:1%;
+    border: solid black;
+    font-family:verdana;
+    font-size:20px;
+    color:black;
+}
+
+#registerEmail{
+    font-family:verdana;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:37%;
+    margin-top: 5%;
+}
+
+#registerTextbox{
+    padding-top:1%;
+    padding-bottom:1%;
+    border: solid black;
+    font-family:verdana;
+    font-size:20px;
+}
+
+#registerPassword{
+    font-family:verdana;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:32.3%;
+    margin-top: 5%;
+}
+
+#registerPasswordTextbox{
+    padding-top:1%;
+    padding-bottom:1%;
+    border: solid black;
+    font-family:verdana;
+    font-size:20px;
+}
+
+#registerPasswordConfirm{
+    font-family:verdana;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:22.6%;
+    margin-top: 5%;
+}
+
+#registerPasswordTextboxConfirm{
+    padding-top:1%;
+    padding-bottom:1%;
+    border: solid black;
+    font-family:verdana;
+    font-size:20px;
+}
+
+.signUpButton{
+    font-size:20px;
+    color:white;
+    font-family:verdana;
+    padding: .5em 1em;
+    margin-left:47%;
+    margin-top: 4%;
+    border-radius: 1em;
+    border:none;
+    outline:none;
+    background-color:rgb(0, 157, 255);
+    cursor:pointer;
+}
+
+#loginEmail{
+    font-family:verdana;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:37%;
+    margin-top: 5%; 
+}
+
+#loginTextbox{
+    padding-top:1%;
+    padding-bottom:1%;
+    border: solid black;
+    font-family:verdana;
+    font-size:20px;
+}
+
+#loginPassword{
+    font-family:verdana;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:32.3%;
+    margin-top: 5%;
+}
+
+#loginPasswordTextbox{
+    padding-top:1%;
+    padding-bottom:1%;
+    border: solid black;
+    font-family:verdana;
+    font-size:20px;
+}
+
+.loginButton{
+    font-size:20px;
+    color:white;
+    font-family:verdana;
+    padding: .5em 1em;
+    margin-left:47%;
+    margin-top: 4%;
+    border-radius: 1em;
+    border:none;
+    outline:none;
+    background-color:rgb(0, 157, 255);
+    cursor:pointer;
+}
+
+#logOutButton{
+    font-family: verdana;
+    color: white;
+    background-color: rgb(0, 157, 255);
+    cursor:pointer;
+    height:50%;
+    
+}
+
+#logOutButtonDiv{
+    width: 99.7%;
+    /* margin-left:85%; */
+    text-align: right;
+}
+
+#registerUsername{
+    font-family:verdana;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:32%;
+    margin-top: 5%;
+}
+
+#registerUsernameTextbox{
+    padding-top:1%;
+    padding-bottom:1%;
+    border: solid black;
+    font-family:verdana;
+    font-size:20px;
+    color:black;
+}
+
+#registerEmptyUsernameErrorBox{
+    /* border: solid red; */
+    font-size: 20px;
+    /* text-align: center; */
+    margin-left: 44.6%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#registerEmptyEmailErrorBox{
+    font-size: 20px;
+    margin-left: 44.6%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#registerDuplicateUserErrorBox{
+    font-size: 20px;
+    margin-left: 44.6%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#registerInvalidEmailErrorBox{
+    font-size: 20px;
+    margin-left: 44.6%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#registerEmptyPasswordErrorBox{
+    font-size: 20px;
+    margin-left: 44.6%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#registerInvalidPasswordErrorBox{
+    font-size: 20px;
+    margin-left: 44.6%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#registerEmptyPasswordConfirmErrorBox{
+    font-size: 20px;
+    margin-left: 44.3%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#registerMismatchPasswordErrorBox{
+    font-size: 20px;
+    margin-left: 44.3%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#loginIncorrectEmailErrorBox{
+    font-size: 20px;
+    margin-left: 44.4%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#loginIncorrectPasswordErrorBox{
+    font-size: 20px;
+    margin-left: 44.3%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#loginEmptyPasswordErrorBox{
+    font-size: 20px;
+    margin-left: 44.3%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#loginEmptyEmailErrorBox{
+    font-size: 20px;
+    margin-left: 44.4%;
+    width: fit-content;
+    float: left;
+    color: red;
+}
+
+#usernameDiv{
+    font-family: verdana;
+    font-size:60px;
+    margin-right:1%;
+}
+
+#postsTitleDiv{
+    padding-bottom: 5px;
+    font-family: verdana;
+    border-bottom:solid black;
+    text-align: left;
+    margin-left: 28px;
+    font-size: 30px;
+    /* color:rgb(4, 10, 201); */
+    width: 100%;
+}
+
+#answerTextDiv{     /*NAME WILL BE CHANGED*/
+    /* font-family:verdana;
+    font-size:24px;
+    border-bottom:dotted black;
+    margin-right:0%;
+    /* padding-right: 150%; */
+    /*margin-top:4%;
+    padding-bottom:4%;
+    color:rgb(4, 10, 201); */
+}
+
+#answersTitleDiv{
+    margin-top: 40px;
+    font-family: verdana;
+    text-align: left;
+    margin-left: 28px;
+    font-size: 30px;
+    width: 100%;
+}
+
+#tagsTitleDiv{
+    margin-top: 40px;
+    font-family: verdana;
+    text-align: left;
+    margin-left: 28px;
+    font-size: 30px;
+    width: 100%;
+}
+
+#tagTextDiv{
+    font-family:verdana;
+    font-size:24px;
+    border-bottom:dotted black;
+    margin-right:0%;
+    /* padding-right: 200%; */
+    margin-top:4%;
+    padding-bottom:4%;
+    color:rgb(4, 10, 201);
+}
+
+#questionTitleSubedit{
+    font-family:verdana;
+    font-weight: normal;
+    color:red;
+}
+
+#currentTagdiv{
+    font-family:verdana;
+    font-weight: normal;
+    color:red;
+}
+
+#currentTextdiv{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-left: 2.25%;
+    font-family:verdana;
+    font-weight: normal;
+    color:red;
+}
+
+#questionSummarySubTextedit{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-left: 2.25%;
+    font-family:verdana;
+    font-weight: normal;
+    color:red;
+}
+
+#prevPageButton{
+    margin-right: 1%;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#prevPageButton:hover{
+    background-color: rgb(0, 157, 255);
+    color: white;
+}
+
+#nextPageButton{
+    margin-left: 1%;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#nextPageButton:hover{
+    background-color: rgb(0, 157, 255);
+    color: white;
+}
+
+#pageButtonsMain{
+    display: inline-block;
+    width: 100%;
+    padding-top: 1%;
+    font-family: Verdana;
+}
+
+#commentTooLongErrorBox{
+    font-size: 12px;
+    text-align: right;
+    width: 74.8%;
+    float: left;
+    color: red;
+}
+
+#commentEmptyErrorBox{
+    font-size: 12px;
+    text-align: right;
+    width: 74.8%;
+    float: left;
+    color: red;
+}
+
+#repTooLowQuestionUpvoteBox{
+    font-size: 12px;
+    text-align: left;
+    width: 98%;
+    float: left;
+    color: red;
+    /* border-style: solid; */
+}
+
+#deleteButtonDiv{
+    border-radius:10px;
+    background-color: lightgrey;
+    font-family: verdana;
+    color:black;
+    cursor:pointer
+}
+
+#deleteButtonDiv:hover{
+    background-color: red;
+    color:white;
+}
+
+#deleteQuestionButton{
+    font-size: 25px;
+    font-family:verdana;
+    background-color: red;
+    color: white;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left:10%;
+    cursor:pointer;
+}
+
+#editButtonDiv{
+    border-radius:10px;
+    background-color: lightgrey;
+    font-family: verdana;
+    color:black;
+    cursor:pointer;
+    margin-left: 4%;;
+    width: 20%;;
+}
+
+#editButtonDiv:hover{
+    background-color: rgb(0, 157, 255);
+    color:white;
+}
+
+#allTagsButton{
+    background-color:rgb(0, 157, 255);
+    border-radius: 50px;
+    border-style: solid;
+    color: white;
+    font-family:verdana;
+    font-size:30px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+#tagNameDivnew{
+    border: 2px dashed black;
+    border-radius: 0; 
+    width: 300px; 
+    height: 100px;
+    margin-left:25px;
+    margin-top:20px;
+    margin-bottom:50px;
+    padding-top:5%;
+    color:rgb(4, 10, 201);
+    font-family:verdana;
+}
+
+#tagTitlenew{
+    margin-left:65%;
+    margin-top:-60px;
+}
+
+#allAnswersButton{
+    background-color:rgb(0, 157, 255);
+    border-radius: 50px;
+    border-style: solid;
+    color: white;
+    font-family:verdana;
+    font-size:30px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+#questionAnswerDiv{
+    font-family: Verdana;
+    font-weight: bold;
+    color:rgb(4, 10, 201);
+    cursor: pointer;
+}
+
+#questionTitlesDiv{
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    text-align: left;
+    margin-left: 28px;
+    border-bottom-style: solid;
+    width: 80%;
+    padding-bottom: 5px;
+}
+
+#errorTagDiv{
+    font-family:verdana;
+    font-size:15px;
+    font-weight: bold;
+    color:red;
+}
+
+#answerTextDivider{
+    width: 98%;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 27px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+#usersLinkAdmin{
+    background-color: white;
+    /* color:rgb(4, 10, 201); */
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    margin-left: 28px;
+    border-bottom-style: solid;
+    border-color: black;
+    padding-bottom: 5px;
+
+}
+
+.backButton{
+    font-size:20px;
+    color:white;
+    font-family:verdana;
+    padding: .5em 1em;
+    margin-left:47.2%;
+    margin-top: 3%;
+    border-radius: 1em;
+    border:none;
+    outline:none;
+    background-color:rgb(0, 157, 255);
+    cursor:pointer;
+}
+
+#dbDown{
+    font-weight: verdana;
+    font-size: 30px;
+    color:red;
+    font-weight: bold;
+}
+
+#backButtonRegister{
+    font-size:20px;
+    color:white;
+    font-family:verdana;
+    padding: .5em 1em;
+    margin-left:48%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    border-radius: 1em;
+    border:none;
+    outline:none;
+    background-color:rgb(0, 157, 255);
+    cursor:pointer;
+}
+
+#userPageHeader{
+    width: 100%;
+    /* border-style: solid; */
+    padding-left: 28px;
+}
+
+#userPagePic{
+    float: left;   
+    width: 10%;
+    /* border-style: solid; */
+    margin-top: 10px;
+}
+
+#usernameDivUserPage{
+    float: left;
+    width: fit-content;
+    border-bottom-style: solid;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+#imgAdjust{
+    width: 100%;
+}
+
+#repAndDateDiv{
+    /* padding-left: 28px; */
+    font-size: 20px;
+    /* border-style: solid; */
+    float: left;
+    padding-left: 22px;
+    width: 80%;
+    padding-top: 5px;
+}
+
+#userDiv{
+    border-bottom-style: dotted;
+    width: 100%;
+    height: fit-content;
+    text-align: left;
+    margin-left: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#userTitleDiv{
+    display: inline-block;
+    font-family:verdana;
+    font-size:30px;
+    color:rgb(4, 10, 201);
+    cursor: pointer;
+    width: 100%;
+    /* border-style: solid; */
+    width: fit-content;
+}
+
+#deleteUserButtonDiv{
+    display: inline-block;
+    width: fit-content;
+    /* border-style: solid; */
+    /* padding-top: 10px;*/
+    padding-left: 20px; 
+}
+
+#deleteUser{
+    border-radius:10px;
+    background-color: lightgrey;
+    font-family: verdana;
+    color:black;
+    cursor:pointer
+
+}
+
+#deleteUser:hover{
+    background-color: red;
+    color:white;
+}
+
+.userQuestions{
+    width: 100%;
+    text-align: left;
+    margin-left: 28px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom-style: dotted;
+}
+
+#noPosts{
+    /* border-style: solid; */
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 28px;
+    padding-top: 5px;
+    border-bottom-style: dotted;
+    font-family: Verdana;
+    padding-bottom: 5px;
+}
+
+.answeredQuestionsDiv{
+    text-align: left;
+    margin-left: 28px;
+    font-family: Verdana;
+    font-size: 30px;
+    border-bottom-style: dotted;
+    width: 80%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#deleteButtonAnswer{
+    border-radius:50px;
+    background-color: lightgrey;
+    font-family: verdana;
+    color:black;
+    cursor:pointer;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+#deleteButtonAnswer:hover{
+    background-color: red;
+    color:white;
+}
+
+#editButtonAnswer{
+    border-radius:50px;
+    background-color: lightgrey;
+    font-family: verdana;
+    color:black;
+    cursor:pointer;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+#editButtonAnswer:hover{
+    background-color:rgb(0, 157, 255);
+    color:white;
+}
+
+#deleteButtonAnswerDiv{
+    padding-left: 5px;
+    float: left;
+    width: 6%;
+}
+
+#editButtonAnswerDiv{
+    float: left;
+    width: 6%;
+}
